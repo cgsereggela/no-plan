@@ -19,13 +19,14 @@ protected:
 private:
 
 	// card converted mana cost
-	Cost m_cost;
+	Cost *m_cost;
 
 	// card name
 	std::string m_name;
 
 	enum e_Set
 	{
+		SET_NONE,
 		SET_GUILDS_OF_RAVNICA,
 		SET_MAGIC_ARENA,
 		SET_CORE_SET_2019,
@@ -45,6 +46,7 @@ private:
 
 	enum e_Type
 	{
+		TYPE_NONE,
 		TYPE_INSTANT,
 		TYPE_SORCERY,
 		TYPE_CREATURE,
@@ -59,6 +61,7 @@ private:
 
 	enum e_SubType
 	{
+		SUBTYPE_NONE,
 		SUBTYPE_HUMAN,
 		SUBTYPE_CLERIC,
 		SUBTYPE_KNIGHT,

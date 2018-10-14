@@ -1,6 +1,11 @@
 #include "Card.h"
 
-Card::Card()
+Card::Card() :
+	m_cost(0),
+	m_name(""),
+	m_set(SET_NONE),
+	m_type(TYPE_NONE),
+	m_subtype(SUBTYPE_NONE)
 {
 	// file definition for cards
 	// COST      | value,type,...

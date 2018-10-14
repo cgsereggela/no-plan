@@ -1,6 +1,8 @@
 #ifndef Symbol_H
 #define Symbol_H
 
+#include <gtk/gtk.h>
+
 #include "Types.h"
 
 class Symbol
@@ -32,6 +34,9 @@ private:
 
 	// symbol value
 	long m_value;
+
+	// symbol image
+	GtkWidget *m_image;
 };
 
 #endif

@@ -1,0 +1,5 @@
+Notes
+
+18-10-14
+- downloaded GTK+3 to try it out for the GUI, will try Glade for the UI editor
+- not sure how I will deal with storing the image for the card
