@@ -1,5 +1,12 @@
 Notes
 
-18-10-14
+18-10-14 evening
+- able to display the image in gtk app
+- added the colour symbols for cost
+- added some methods to Card for setting the values
+- will need to implement "Collection" which can parse through the 'card_list' and create "Cards"
+- can now compile
+
+18-10-14 day
 - downloaded GTK+3 to try it out for the GUI, will try Glade for the UI editor
 - not sure how I will deal with storing the image for the card
