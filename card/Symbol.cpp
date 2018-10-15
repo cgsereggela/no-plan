@@ -1,7 +1,7 @@
 
 #include "Symbol.h"
 
-Symbol::Symbol() :
+Symbol::Symbol(e_Colour colour, long value) :
 	m_colour(colour),
 	m_value(value)
 {
@@ -14,7 +14,7 @@ Symbol::Symbol() :
 		case COLOUR_BLUE:
 		case COLOUR_BLACK:
 		{
-			m_image = gtk_image_from_file("naya.png");
+			m_image = gtk_image_new_from_file("naya.png");
 		}
 
 		default:
@@ -22,7 +22,7 @@ Symbol::Symbol() :
 	}
 }
 
-Symbol:~Symbol()
+Symbol::~Symbol()
 {
 	
 }
@@ -47,4 +47,9 @@ long Symbol::getValue()
 	{
 		return m_value;
 	}
+}
+
+GtkWidget *Symbol::getImage()
+{
+	return m_image;
 }

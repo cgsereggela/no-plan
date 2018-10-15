@@ -1,6 +1,8 @@
 #ifndef Cost_H
 #define Cost_H
 
+#include <vector>
+
 #include "Symbol.h"
 
 class Cost

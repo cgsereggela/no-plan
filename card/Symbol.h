@@ -26,6 +26,9 @@ public:
 	// the symbol value
 	long getValue();
 
+	// the image reference
+	GtkWidget *getImage();
+
 protected:
 private:
 

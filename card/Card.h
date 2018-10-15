@@ -1,6 +1,8 @@
 #ifndef Card_H
 #define Card_H
 
+#include <string>
+
 #include "Description.h"
 #include "Cost.h"
 #include "Types.h"
